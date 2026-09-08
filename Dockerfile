@@ -1,4 +1,4 @@
-FROM kong:3.10
+FROM kong:3.9
 
 COPY kong.yml /kong/declarative/kong.yml
 
