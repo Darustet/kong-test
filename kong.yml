@@ -1,0 +1,12 @@
+_format_version: "3.0"
+_transform: true
+
+services:
+  - name: chatbot
+    url: https://chatbot-render-y3bs.onrender.com
+
+    routes:
+      - name: chatbot-route
+        paths:
+          - /chatbot
+        strip_path: true
